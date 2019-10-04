@@ -1,0 +1,9 @@
+.pytest_cache/
+.cache/
+__pycache__/
+.idea/
+.eggs/
+UNKNOWN.egg-info/
+.*.swp
+*~
+*.pyc

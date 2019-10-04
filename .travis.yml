@@ -1,0 +1,12 @@
+language: python
+python:
+- '3.6'
+install:
+- make
+script:
+- make test
+after_success:
+- codecov
+notifications:
+  slack:
+    secure: ZgeggNndRnvmlmqDHjUY2BDVr+6O/YJtHhFTQO2GLcghw6szfsfDHRhxdi6tixEfUT/VmrZFoyI+V1ub1yrZ80z6g+0pjqL/+gYoamJbHhO9nmyCjC/490IkUZ4yiPBeF7ogVSAgZ0ixuZO9SQJ5TMBoPaV+hGSU0zt9cglrbvKnsVfbzIxz6jlCFvd9e83+7gvoed1jZ3XYmpBJAwoXotkeDbejyLrDsjR4ViIgrjGuu11QegX7r3l5SuxAOLW8QVQnHTel2fe9twVf5WIHM1kdfsEHpVfIgol67E97EGv3uL9XdaU3zQENIIOdxT4f03X/O8erB0Xpbn21QUGg/F6WOdtmmdQyQfv7B0bIjJvWdeEN5kMXd87W6qMzUOiZGFlNE2nDD6pRydZUtpyiQHVXXkhq4YuKuvq2NvapYkCRHhDu4TkAmpcJn0IzNsrkZ7UZrWnsy54t2+YFjfYX2oQtyYyIbM0bKnRrlGcD2C9hlXSa0Dlqlbl0/Rzk9IOubhaNXN46hMfgCdJgtLrXGTMZLxwa/+hBF1hqg47HDsPXmsgXm53usXA0gf+SBW7QBOCcd9Khb4MEGPX/zlZTw+v79mwdNGCjlhCzmkhheWj3uKP5FmHyXgiTAGRndBysIrp8ZoYzSgayc/2Ro5n/XxNKexm8bDPyWKa+dFPV6iM=

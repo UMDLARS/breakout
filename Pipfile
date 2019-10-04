@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[dev-packages]
+pygame = "*"
+pytest-flask = "*"
+pytest-cov = "*"
+codecov = "*"
+
+
+[packages]
+cylgame = "~=1.6.23"
+greenlet = {version = "*", platform_python_implementation="=='CPython'"}
+
+
+
+[requires]
+
+python_version = "3.6"
