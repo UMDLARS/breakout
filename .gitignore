@@ -7,3 +7,4 @@ UNKNOWN.egg-info/
 .*.swp
 *~
 *.pyc
+temp_game/

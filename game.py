@@ -13,8 +13,6 @@ from CYLGame import StatusPanel
 from CYLGame import PanelBorder
 from CYLGame.Game import ConstMapping
 from CYLGame.Player import DefaultGridPlayer
-from resources.Invader import Invader
-
 
 class Direction(Enum):
     RIGHT = 1
